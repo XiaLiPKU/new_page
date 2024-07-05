@@ -1,6 +1,6 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: July 5, 2024 --><html lang="en-us" dir="ltr"
+<!-- Last Published: July 6, 2024 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="system">
   
 <head>
@@ -34,7 +34,7 @@
   
   
 
-  <meta name="author" content="吳健雄" />
+  <meta name="author" content="Xia Li" />
 
   
   
@@ -51,7 +51,7 @@
   
   
     
-    <link rel="stylesheet" href="/new_page/css/themes/emerald.min.css" />
+    <link rel="stylesheet" href="/new_page/css/themes/blue.min.css" />
   
 
   
@@ -130,6 +130,45 @@
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=LF6EHN32R3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'LF6EHN32R3', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
 
 
 
@@ -156,7 +195,7 @@
 
   
   
-    <link rel="alternate" href="/new_page/publication_types/paper-conference/index.xml" type="application/rss+xml" title="Hugo Academic CV Theme" />
+    <link rel="alternate" href="/new_page/publication_types/paper-conference/index.xml" type="application/rss+xml" title="Xia Li" />
   
 
   
@@ -188,14 +227,14 @@
     <meta property="twitter:site" content="@GetResearchDev" />
     <meta property="twitter:creator" content="@GetResearchDev" />
   
-  <meta property="og:site_name" content="Hugo Academic CV Theme" />
+  <meta property="og:site_name" content="Xia Li" />
   <meta property="og:url" content="https://xialipku.github.io/new_page/publication_types/paper-conference/" />
-  <meta property="og:title" content="Paper-Conference | Hugo Academic CV Theme" />
+  <meta property="og:title" content="Paper-Conference | Xia Li" />
   <meta property="og:description" content="The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website." /><meta property="og:image" content="https://xialipku.github.io/new_page/media/icon_hu68170e94a17a2a43d6dcb45cf0e8e589_3079_512x512_fill_lanczos_center_3.png" />
     <meta property="twitter:image" content="https://xialipku.github.io/new_page/media/icon_hu68170e94a17a2a43d6dcb45cf0e8e589_3079_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="og:updated_time" content="2013-07-01T00:00:00&#43;00:00" />
+      <meta property="og:updated_time" content="2024-07-08T00:00:00&#43;00:00" />
     
   
 
@@ -204,7 +243,7 @@
 
 
 
-  <title>Paper-Conference | Hugo Academic CV Theme</title>
+  <title>Paper-Conference | Xia Li</title>
 
   
   
@@ -236,25 +275,13 @@
   
   
   
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
+  
+  
+  
+  
+  
+  
+  
   
   
   
@@ -292,60 +319,45 @@
         
       
     
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
@@ -372,6 +384,28 @@
       
     
   
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
   
     
       
@@ -392,41 +426,13 @@
         
       
     
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
+  
+  
+  
+  
+  
+  
+  
     
       
       
@@ -484,7 +490,104 @@
     
       
       
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
     
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
@@ -622,8 +725,8 @@
   <nav class="navbar px-3 flex justify-left">
     <div class="order-0 h-100">
       
-      <a class="navbar-brand" href="/new_page/" title="Hugo Academic CV Theme">
-        Your Name
+      <a class="navbar-brand" href="/new_page/" title="Xia Li">
+        Xia Li
       </a>
     </div>
     
@@ -674,36 +777,36 @@
         <a
           class="nav-link "
           
-          href="/new_page/#papers"
-        >Papers</a
-        >
-      </li>
-      
-      
-      
-      
-      
-      
-      <li class="nav-item">
-        <a
-          class="nav-link "
-          
-          href="/new_page/#talks"
-        >Talks</a
-        >
-      </li>
-      
-      
-      
-      
-      
-      
-      <li class="nav-item">
-        <a
-          class="nav-link "
-          
           href="/new_page/#news"
         >News</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/new_page/publication"
+        >Publications</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/new_page/event"
+        >Talks</a
         >
       </li>
       
@@ -730,22 +833,8 @@
         <a
           class="nav-link "
           
-          href="/new_page/projects/"
-        >Projects</a
-        >
-      </li>
-      
-      
-      
-      
-      
-      
-      <li class="nav-item">
-        <a
-          class="nav-link "
-          
-          href="/new_page/teaching/"
-        >Teaching</a
+          href="/new_page/awards/"
+        >Awards</a
         >
       </li>
       
@@ -838,20 +927,440 @@
 
 
 
-<a href="/new_page/publication/conference-paper/"  class="mb-5">
+<a href="/new_page/publication/iccr24-ngp-dir/"  class="mb-5">
   <div class="md:flex">
     <div class="md:flex-shrink-0 overflow-hidden">
       
         
         
-      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/new_page/publication/conference-paper/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_312700_ca381a1b03d3ea8e8c27e93258fe5575.webp" height="655" width="655" alt="An example conference paper">
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/new_page/publication/iccr24-ngp-dir/featured_hu96fe106805ab412538f27a974e3cf4c4_377606_2a234543f044e8f08f88faac538f473d.webp" height="655" width="655" alt="Neural Graphics Primitives-based Deformable Image Registration for On-the-fly Motion Extraction">
       
     </div>
     <div class="p-8">
-      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">An example conference paper</div>
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Neural Graphics Primitives-based Deformable Image Registration for On-the-fly Motion Extraction</div>
       <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.</p>
-      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Jul 1, 2013</p>
+        In this study, we have successfully integrated NGP into DIR, a novel contribution that significantly enhances the accuracy and efficiency of medical image alignment as demonstrated on the DIR-lab dataset. The NGPDIR framework exhibits robust performance across various metrics, particularly in landmark alignment precision and the accommodation of anatomical sliding boundaries. This advancement not only propels the DIR field forward but also opens new avenues for real-time clinical applications, potentially transforming patient care with its rapid, reliable imaging capabilities.</p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Jul 8, 2024</p>
+    </div>
+  </div>
+</a>
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/new_page/publication/cvpr24-icl-pose/"  class="mb-5">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0 overflow-hidden">
+      
+        
+        
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/new_page/publication/cvpr24-icl-pose/featured_hu4d9ec96548c27c65612f16aed24d56cd_238333_d232fe1d3bb9f617c13e9a4b9faed1db.webp" height="655" width="655" alt="Skeleton-in-context: Unified skeleton sequence modeling with in-context learning">
+      
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Skeleton-in-context: Unified skeleton sequence modeling with in-context learning</div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+        In this work, we propose the Skeleton-in-Context, designed to process multiple skeleton-base tasks simultaneously after just one training time. Specifically, we build a novel skeleton-based in-context benchmark covering various tasks. In particular, we propose skeleton prompts composed of TGP and TUP, which solve the overfitting problem of skeleton sequence data trained under the training framework commonly applied in previous 2D and 3D in-context models. Besides, we demonstrate that our model can generalize to different datasets and new tasks, such as motion completion. We hope our research builds the first step in the exploration of in-context learning for skeleton-based sequences, which paves the way for further research in this area.</p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Dec 15, 2023</p>
+    </div>
+  </div>
+</a>
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/new_page/publication/neurips23-icl-point/"  class="mb-5">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0 overflow-hidden">
+      
+        
+        
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/new_page/publication/neurips23-icl-point/featured_huc09ae552efe385e96289ecf777809b96_472423_0c92884518cfab477d5947240d03462f.webp" height="655" width="655" alt="Explore In-Context Learning for 3D Point Cloud Understanding">
+      
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Explore In-Context Learning for 3D Point Cloud Understanding</div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+        We propose Point-In-Context (PIC), the first framework adopting the in-context learning paradigm for 3D point cloud understanding. Specifically, we set up an extensive dataset of point cloud pairs with four fundamental tasks to achieve in-context ability. We propose effective designs that facilitate the training and solve the inherited information leakage problem. PIC shows its excellent learning capacity, achieves comparable results with single-task models, and outperforms multitask models on all four tasks. Besides, it shows good generalization ability to out-of-distribution samples and unseen tasks and has great potential via selecting higher-quality prompts. We hope it paves the way for further exploration of in-context learning in the 3D modalities.</p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Dec 10, 2023</p>
+    </div>
+  </div>
+</a>
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/new_page/publication/iccv23-coevo-mesh/"  class="mb-5">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0 overflow-hidden">
+      
+        
+        
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/new_page/publication/iccv23-coevo-mesh/featured_hu6360c533b6c06cede09efa83e846afd5_447307_1b13ee32298dc18d92fd51212346c948.webp" height="655" width="655" alt="Co-Evolution of Pose and Mesh for 3D Human Body Estimation from Video">
+      
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Co-Evolution of Pose and Mesh for 3D Human Body Estimation from Video</div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+        This paper proposes the Pose and Mesh Co-Evolution network (PMCE), a new two-stage pose-to-mesh framework for recovering 3D human mesh from a monocular video. PMCE frst estimates 3D human pose motion in terms of spatial and temporal domains, then performs image-guided pose and mesh interactions by our proposed AdaLN that injects body shape information while preserving their spatial structure. Extensive experiments on popular datasets show that PMCE outperforms state-of-the-art methods in both perframe accuracy and temporal consistency. We hope that our approach will spark further research in 3D human motion estimation considering both pose and shape consistency.</p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Oct 2, 2023</p>
+    </div>
+  </div>
+</a>
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/new_page/publication/iccv23-caption-seg/"  class="mb-5">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0 overflow-hidden">
+      
+        
+        
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/new_page/publication/iccv23-caption-seg/featured_hu011ea7685f847792f4a9d7cc2f95615e_389155_22c77cfa92b09631b702288094ee7bc9.webp" height="655" width="655" alt="Betrayed by captions: Joint caption grounding and generation for open vocabulary instance segmentation">
+      
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Betrayed by captions: Joint caption grounding and generation for open vocabulary instance segmentation</div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+        This paper presents a joint Caption Grounding and Generation (CGG) framework for instance-level open vocabulary segmentation. The main contributions are: (1) using fine-grained object nouns in captions to improve grounding with object queries. (2) using captions as supervision signals to extract rich information from other words helps identify novel categories. To our knowledge, this paper is the first to unify segmentation and caption generation for open vocabulary learning. The proposed framework significantly improves OVIS and OSPS and comparable results on OVOD without pre-training on large-scale datasets.</p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Oct 2, 2023</p>
+    </div>
+  </div>
+</a>
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/new_page/publication/neurips21-proto-track-seg/"  class="mb-5">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0 overflow-hidden">
+      
+        
+        
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/new_page/publication/neurips21-proto-track-seg/featured_hucb35216e12caf65b285e8177fe5d0540_381581_3b16783e3fb1a58fcc4311f346ab2bd8.webp" height="655" width="655" alt="Prototypical Cross-Attention Networks for Multiple Object Tracking and Segmentation">
+      
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Prototypical Cross-Attention Networks for Multiple Object Tracking and Segmentation</div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+        We propose Prototypical Cross-Attention Network (PCAN), capable of leveraging rich spatio-temporal information for online multiple object tracking and segmentation. </p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Sep 12, 2021</p>
+    </div>
+  </div>
+</a>
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/new_page/publication/cvpr21-quasi-track/"  class="mb-5">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0 overflow-hidden">
+      
+        
+        
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/new_page/publication/cvpr21-quasi-track/featured_huf1361c5b795c8badd6f2979bf92e6920_1106383_8f05b824185fefba4ef9c099edf5ead6.webp" height="655" width="655" alt="Quasi-dense similarity learning for multiple object tracking">
+      
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Quasi-dense similarity learning for multiple object tracking</div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+        We present Quasi-Dense Similarity Learning, which densely samples hundreds of region proposals on a pair of images for contrastive learning.</p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Feb 20, 2021</p>
+    </div>
+  </div>
+</a>
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/new_page/publication/cvpr21-point-flow-seg/"  class="mb-5">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0 overflow-hidden">
+      
+        
+        
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/new_page/publication/cvpr21-point-flow-seg/featured_hu309c9fb14b8abc1ebff95577a488bf34_593424_06f8df259df6fba4b00a52b4acb9163a.webp" height="655" width="655" alt="PointFlow: Flowing Semantics Through Points for Aerial Image Segmentation">
+      
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">PointFlow: Flowing Semantics Through Points for Aerial Image Segmentation</div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+        </p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Feb 13, 2021</p>
+    </div>
+  </div>
+</a>
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/new_page/publication/iclr20-md-seg/"  class="mb-5">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0 overflow-hidden">
+      
+        
+        
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/new_page/publication/iclr20-md-seg/featured_hue037f6df33459d6147d3b335be2799d9_74977_fc088931a148c4104916f66071749b6b.webp" height="655" width="655" alt="Is Attention Better Than Matrix Decomposition?">
+      
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Is Attention Better Than Matrix Decomposition?</div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+        Self-attention is not better than the matrix decomposition~(MD) model developed 20 years ago regarding the performance and computational cost for encoding the long-distance dependencies.</p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Sep 28, 2020</p>
+    </div>
+  </div>
+</a>
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/new_page/publication/eccv20-decouple-seg/"  class="mb-5">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0 overflow-hidden">
+      
+        
+        
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/new_page/publication/eccv20-decouple-seg/featured_huc6030c583a6246ba24d8ca663433c0d8_604507_7cff5f71aed8efed1785aced0f7540e4.webp" height="655" width="655" alt="Improving Semantic Segmentation via Decoupled Body and Edge Supervision">
+      
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Improving Semantic Segmentation via Decoupled Body and Edge Supervision</div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+        </p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Jul 3, 2020</p>
+    </div>
+  </div>
+</a>
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/new_page/publication/cvpr20-spygr-seg/"  class="mb-5">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0 overflow-hidden">
+      
+        
+        
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/new_page/publication/cvpr20-spygr-seg/featured_hu43d2a3705a01344ae35e6916ebaa3685_689664_581ba5760dba1162fb3718d933d4687d.webp" height="655" width="655" alt="Spatial Pyramid Based Graph Reasoning for Semantic Segmentation">
+      
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Spatial Pyramid Based Graph Reasoning for Semantic Segmentation</div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+        </p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Feb 24, 2020</p>
+    </div>
+  </div>
+</a>
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/new_page/publication/aaai20-sognet-seg/"  class="mb-5">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0 overflow-hidden">
+      
+        
+        
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/new_page/publication/aaai20-sognet-seg/featured_hu559f28cda505009a79e68e1e21f4a288_271305_fec9a3b8d7933a278d52e017fb506aeb.webp" height="655" width="655" alt="SOGNet: Scene Overlap Graph Network for Panoptic Segmentation">
+      
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">SOGNet: Scene Overlap Graph Network for Panoptic Segmentation</div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+        We leverage each object’s category, geometry and appearance features to perform relational embedding, and output a relation matrix that encodes overlap relations. In order to overcome the lack of supervision, we introduce a differentiable module to resolve the overlap between any pair of instances.</p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Feb 7, 2020</p>
+    </div>
+  </div>
+</a>
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/new_page/publication/aaai20-tcs-cls/"  class="mb-5">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0 overflow-hidden">
+      
+        
+        
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/new_page/publication/aaai20-tcs-cls/featured_huaf3a0810c4a3c1ca5a417386bed61ce5_46007_0621976457504149618aaa1bdb321f6b.webp" height="655" width="655" alt="Dynamic System Inspired Adaptive Time Stepping Controller for Residual Networks Families">
+      
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Dynamic System Inspired Adaptive Time Stepping Controller for Residual Networks Families</div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+        We analyze the effects of time stepping on the Euler method and ResNets. We establish a stability condition for ResNets with step sizes and weight parameters, and point out the effects of step sizes on the stability and performance. Inspired by our analyses, we develop an adaptive time stepping controller that is dependent on the parameters of the current step, and aware of previous steps.</p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Feb 7, 2020</p>
+    </div>
+  </div>
+</a>
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/new_page/publication/iccv19-emanet-seg/"  class="mb-5">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0 overflow-hidden">
+      
+        
+        
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/new_page/publication/iccv19-emanet-seg/featured_hu9697392da5f15752eba3cc9c3d5fcfba_326134_a8ee754e23f7d202928bfee741e7e101.webp" height="655" width="655" alt="Expectation Maximization Attention Networks for Semantic Segmentation">
+      
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Expectation Maximization Attention Networks for Semantic Segmentation</div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+        We formulate the attention mechanism into an expectation-maximization manner and iteratively estimate a much more compact set of bases upon which the attention maps are computed.</p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Jul 22, 2019</p>
+    </div>
+  </div>
+</a>
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/new_page/publication/miccai19-r2net-destreak/"  class="mb-5">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0 overflow-hidden">
+      
+        
+        
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/new_page/publication/miccai19-r2net-destreak/featured_hudf37fe5dd93a0851274cb8b6242e8abb_83498_bb0ba89bd3468194d54d149468d2662f.webp" height="655" width="655" alt="R^2 Net Recurrent and Recursive Network for Sparse View CT Artifacts Removal">
+      
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">R^2 Net Recurrent and Recursive Network for Sparse View CT Artifacts Removal</div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+        We propose a novel neural network architecture to reduce streak artifacts generated in sparse-view 2D Cone Beam Computed To-mography (CBCT) image reconstruction.</p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Jun 19, 2019</p>
+    </div>
+  </div>
+</a>
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/new_page/publication/eccv18-rescan-derain/"  class="mb-5">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0 overflow-hidden">
+      
+        
+        
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/new_page/publication/eccv18-rescan-derain/featured_hu50977331c69894a416aa004775fc30b5_546954_6377088a99e07ccadaac1471ab3f4135.webp" height="655" width="655" alt="Recurrent Squeeze-and-Excitation Net for Single Image Deraining">
+      
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Recurrent Squeeze-and-Excitation Net for Single Image Deraining</div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+        We propose a novel deep network architecture based on deep convolutional and recurrent neural networksfor single image deraining.</p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Jul 19, 2018</p>
     </div>
   </div>
 </a>

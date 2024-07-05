@@ -1,6 +1,6 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: July 5, 2024 --><html lang="en-us" dir="ltr"
+<!-- Last Published: July 6, 2024 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="system">
   
 <head>
@@ -34,7 +34,7 @@
   
   
 
-  <meta name="author" content="吳健雄" />
+  <meta name="author" content="Xia Li" />
 
   
   
@@ -51,7 +51,7 @@
   
   
     
-    <link rel="stylesheet" href="/new_page/css/themes/emerald.min.css" />
+    <link rel="stylesheet" href="/new_page/css/themes/blue.min.css" />
   
 
   
@@ -130,6 +130,45 @@
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=LF6EHN32R3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'LF6EHN32R3', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
 
 
 
@@ -156,7 +195,7 @@
 
   
   
-    <link rel="alternate" href="/new_page/publication_types/article-journal/index.xml" type="application/rss+xml" title="Hugo Academic CV Theme" />
+    <link rel="alternate" href="/new_page/publication_types/article-journal/index.xml" type="application/rss+xml" title="Xia Li" />
   
 
   
@@ -188,14 +227,14 @@
     <meta property="twitter:site" content="@GetResearchDev" />
     <meta property="twitter:creator" content="@GetResearchDev" />
   
-  <meta property="og:site_name" content="Hugo Academic CV Theme" />
+  <meta property="og:site_name" content="Xia Li" />
   <meta property="og:url" content="https://xialipku.github.io/new_page/publication_types/article-journal/" />
-  <meta property="og:title" content="Article-Journal | Hugo Academic CV Theme" />
+  <meta property="og:title" content="Article-Journal | Xia Li" />
   <meta property="og:description" content="The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website." /><meta property="og:image" content="https://xialipku.github.io/new_page/media/icon_hu68170e94a17a2a43d6dcb45cf0e8e589_3079_512x512_fill_lanczos_center_3.png" />
     <meta property="twitter:image" content="https://xialipku.github.io/new_page/media/icon_hu68170e94a17a2a43d6dcb45cf0e8e589_3079_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="og:updated_time" content="2015-09-01T00:00:00&#43;00:00" />
+      <meta property="og:updated_time" content="2024-03-05T12:30:06&#43;01:00" />
     
   
 
@@ -204,7 +243,7 @@
 
 
 
-  <title>Article-Journal | Hugo Academic CV Theme</title>
+  <title>Article-Journal | Xia Li</title>
 
   
   
@@ -236,25 +275,13 @@
   
   
   
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
+  
+  
+  
+  
+  
+  
+  
   
   
   
@@ -292,60 +319,45 @@
         
       
     
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
@@ -372,6 +384,28 @@
       
     
   
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
   
     
       
@@ -392,41 +426,13 @@
         
       
     
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
+  
+  
+  
+  
+  
+  
+  
     
       
       
@@ -484,7 +490,104 @@
     
       
       
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
     
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
@@ -622,8 +725,8 @@
   <nav class="navbar px-3 flex justify-left">
     <div class="order-0 h-100">
       
-      <a class="navbar-brand" href="/new_page/" title="Hugo Academic CV Theme">
-        Your Name
+      <a class="navbar-brand" href="/new_page/" title="Xia Li">
+        Xia Li
       </a>
     </div>
     
@@ -674,36 +777,36 @@
         <a
           class="nav-link "
           
-          href="/new_page/#papers"
-        >Papers</a
-        >
-      </li>
-      
-      
-      
-      
-      
-      
-      <li class="nav-item">
-        <a
-          class="nav-link "
-          
-          href="/new_page/#talks"
-        >Talks</a
-        >
-      </li>
-      
-      
-      
-      
-      
-      
-      <li class="nav-item">
-        <a
-          class="nav-link "
-          
           href="/new_page/#news"
         >News</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/new_page/publication"
+        >Publications</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/new_page/event"
+        >Talks</a
         >
       </li>
       
@@ -730,22 +833,8 @@
         <a
           class="nav-link "
           
-          href="/new_page/projects/"
-        >Projects</a
-        >
-      </li>
-      
-      
-      
-      
-      
-      
-      <li class="nav-item">
-        <a
-          class="nav-link "
-          
-          href="/new_page/teaching/"
-        >Teaching</a
+          href="/new_page/awards/"
+        >Awards</a
         >
       </li>
       
@@ -838,20 +927,188 @@
 
 
 
-<a href="/new_page/publication/journal-article/"  class="mb-5">
+<a href="/new_page/publication/tip24-ref-seg/"  class="mb-5">
   <div class="md:flex">
     <div class="md:flex-shrink-0 overflow-hidden">
       
         
         
-      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/new_page/publication/journal-article/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_214168_8d64d7aea654116b71cd89217130ee92.webp" height="655" width="655" alt="An example journal article">
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/new_page/publication/tip24-ref-seg/featured_hu2be32ba41f2b067d2f7691bdca28cd05_540168_5ced645f07f340125b37c6d45aa7d395.webp" height="655" width="655" alt="Towards robust referring image segmentation">
       
     </div>
     <div class="p-8">
-      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">An example journal article</div>
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Towards robust referring image segmentation</div>
       <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.</p>
-      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Sep 1, 2015</p>
+        We propose a novel ranking loss function, named Bi-directional Exponential Angular Triplet Loss, to help learn an angularly separable common feature space by explicitly constraining the included angles between embedding vectors.</p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Mar 5, 2024</p>
+    </div>
+  </div>
+</a>
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/new_page/publication/tpami24-open-voc-learn/"  class="mb-5">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0 overflow-hidden">
+      
+        
+        
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/new_page/publication/tpami24-open-voc-learn/featured_hu8ee485cd77c3ebd2b69ba43ec7c9cc60_155191_6f7a44290f36ad698ba098a932e1521b.webp" height="655" width="655" alt="Towards open vocabulary learning: A survey">
+      
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Towards open vocabulary learning: A survey</div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+        This survey offers a detailed examination of the latest developments in open vocabulary learning in computer vision, which appears to be a first of its kind. We provide an overview of the necessary background knowledge, which includes fundamental concepts and introductory knowledge of detection, segmentation, and vision language pre-training. Following that, we summarize more than 50 different models used for various scene understanding tasks. For each task, we categorize the methods based on their technical viewpoint. Additionally, we provide information regarding several closely related domains. In the experiment section, we provide a detailed description of the settings and compare results fairly. Finally, we summarize several challenges and also point out several future research directions for open vocabulary learning.</p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Feb 5, 2024</p>
+    </div>
+  </div>
+</a>
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/new_page/publication/ro23-uncert-mr2ct/"  class="mb-5">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0 overflow-hidden">
+      
+        
+        
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/new_page/publication/ro23-uncert-mr2ct/featured_hu1e82422065b28e5b05443b600c8648df_1667560_22d2db3fe032dc31a17abc0463ba96aa.webp" height="655" width="655" alt="Uncertainty-aware MR-based CT synthesis for robust proton therapy planning of brain tumour">
+      
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Uncertainty-aware MR-based CT synthesis for robust proton therapy planning of brain tumour</div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+        The enhanced framework incorporates 3D uncertainty prediction and generates high-quality sCTs from MR images. The framework also facilitates conditioned robust optimisation, bolstering proton plan robustness against network prediction errors. The innovative feature of uncertainty visualisation and robust analyses contribute to evaluating sCT clinical utility for individual patients.</p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Feb 1, 2024</p>
+    </div>
+  </div>
+</a>
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/new_page/publication/tpami22-equil-learn/"  class="mb-5">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0 overflow-hidden">
+      
+        
+        
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/new_page/publication/tpami22-equil-learn/featured_hu10b75be164534ddad67407bc06770508_311549_8acdbffbe2c23835495c3336c748776d.webp" height="655" width="655" alt="Optimization induced equilibrium networks: An explicit optimization perspective for understanding equilibrium models">
+      
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Optimization induced equilibrium networks: An explicit optimization perspective for understanding equilibrium models</div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+        In this paper, we decompose the feed-forward DNN and find a more reasonable basic unit layer, which shows a close relationship with the proximal operator. Based on it, we propose new equilibrium models, OptEqs, and explore their underlying optimization problems thoroughly. We provide two strategies to introduce customized regularizations to the equilibrium points, and achieve significant performance improvement in experiments. We highlight that by modifying the underlying optimization problems, we can create more effective network architectures. Our work may inspire more interpretable equilibrium models from the optimization perspective.</p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Jun 10, 2022</p>
+    </div>
+  </div>
+</a>
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/new_page/publication/pr21-fashion-pose/"  class="mb-5">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0 overflow-hidden">
+      
+        
+        
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/new_page/publication/pr21-fashion-pose/featured_hu7c3454da90b2208136f3bb2fcd0b96e9_189885_bcf1fd78f33f97f2d6f8526b7681b144.webp" height="655" width="655" alt="PCLoss: Fashion landmark estimation with position constraint loss">
+      
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">PCLoss: Fashion landmark estimation with position constraint loss</div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+        In this paper, we design a Position Constraint Loss (PCLoss) for fashion landmark estimation, which incorporates the position correlation into landmark estimation models. Specifically, the PCLoss adds a regular term for each landmark to regularize their relative positions. Compared with other alternatives, our PCLoss effectively mitigates the outliers and duplicate detection problems without modifying existing CNN architectures. In addition, our skeleton-like optimization method further strengthens the position constraints between landmarks. The proposed method can be applied to both regression and heatmap based methods and it provides a novel perspective towards position relation learning in key point estimation tasks. Extensive experimental results on three challenging datasets, DeepFashion, FLD and FashionAI, demonstrate that our method outperforms other state-of-the-art methods. The experiment on COCO 2017 shows the potential applications of PCLoss for other key point estimation tasks, which can be explored more in future work.</p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Oct 1, 2021</p>
+    </div>
+  </div>
+</a>
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/new_page/publication/tip21-sqreason-seg/"  class="mb-5">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0 overflow-hidden">
+      
+        
+        
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/new_page/publication/tip21-sqreason-seg/featured_hub67fae09e3f86c7671a6a91178fc4522_263697_da8b60ef7e685749194388c21ac508de.webp" height="655" width="655" alt="Towards efficient scene understanding via squeeze reasoning">
+      
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Towards efficient scene understanding via squeeze reasoning</div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+        </p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Jul 30, 2021</p>
+    </div>
+  </div>
+</a>
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/new_page/publication/tip20-atloss-reid/"  class="mb-5">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0 overflow-hidden">
+      
+        
+        
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/new_page/publication/tip20-atloss-reid/featured_hu63751962ff0fad11a5926e71a1a0c7e2_179116_df3552ae681d53479e7fea365cdd6aea.webp" height="655" width="655" alt="Bi-directional Exponential Angular Triplet Loss for RGB-Infrared Person Re-Identification">
+      
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Bi-directional Exponential Angular Triplet Loss for RGB-Infrared Person Re-Identification</div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+        We propose a novel ranking loss function, named Bi-directional Exponential Angular Triplet Loss, to help learn an angularly separable common feature space by explicitly constraining the included angles between embedding vectors.</p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Dec 12, 2020</p>
     </div>
   </div>
 </a>

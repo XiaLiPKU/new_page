@@ -1,6 +1,6 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: July 5, 2024 --><html lang="en-us" dir="ltr"
+<!-- Last Published: July 6, 2024 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="system">
   
 <head>
@@ -34,7 +34,7 @@
   
   
 
-  <meta name="author" content="吳健雄" />
+  <meta name="author" content="Xia Li" />
 
   
   
@@ -51,7 +51,7 @@
   
   
     
-    <link rel="stylesheet" href="/new_page/css/themes/emerald.min.css" />
+    <link rel="stylesheet" href="/new_page/css/themes/blue.min.css" />
   
 
   
@@ -130,6 +130,45 @@
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=LF6EHN32R3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'LF6EHN32R3', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
 
 
 
@@ -156,7 +195,7 @@
 
   
   
-    <link rel="alternate" href="/new_page/publication_types/article/index.xml" type="application/rss+xml" title="Hugo Academic CV Theme" />
+    <link rel="alternate" href="/new_page/publication_types/article/index.xml" type="application/rss+xml" title="Xia Li" />
   
 
   
@@ -188,14 +227,14 @@
     <meta property="twitter:site" content="@GetResearchDev" />
     <meta property="twitter:creator" content="@GetResearchDev" />
   
-  <meta property="og:site_name" content="Hugo Academic CV Theme" />
+  <meta property="og:site_name" content="Xia Li" />
   <meta property="og:url" content="https://xialipku.github.io/new_page/publication_types/article/" />
-  <meta property="og:title" content="Article | Hugo Academic CV Theme" />
+  <meta property="og:title" content="Article | Xia Li" />
   <meta property="og:description" content="The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website." /><meta property="og:image" content="https://xialipku.github.io/new_page/media/icon_hu68170e94a17a2a43d6dcb45cf0e8e589_3079_512x512_fill_lanczos_center_3.png" />
     <meta property="twitter:image" content="https://xialipku.github.io/new_page/media/icon_hu68170e94a17a2a43d6dcb45cf0e8e589_3079_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="og:updated_time" content="2019-04-07T00:00:00&#43;00:00" />
+      <meta property="og:updated_time" content="2024-11-09T00:00:00&#43;00:00" />
     
   
 
@@ -204,7 +243,7 @@
 
 
 
-  <title>Article | Hugo Academic CV Theme</title>
+  <title>Article | Xia Li</title>
 
   
   
@@ -236,25 +275,13 @@
   
   
   
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
+  
+  
+  
+  
+  
+  
+  
   
   
   
@@ -292,60 +319,45 @@
         
       
     
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
@@ -372,6 +384,28 @@
       
     
   
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
   
     
       
@@ -392,41 +426,13 @@
         
       
     
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
+  
+  
+  
+  
+  
+  
+  
     
       
       
@@ -484,7 +490,104 @@
     
       
       
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
     
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
@@ -622,8 +725,8 @@
   <nav class="navbar px-3 flex justify-left">
     <div class="order-0 h-100">
       
-      <a class="navbar-brand" href="/new_page/" title="Hugo Academic CV Theme">
-        Your Name
+      <a class="navbar-brand" href="/new_page/" title="Xia Li">
+        Xia Li
       </a>
     </div>
     
@@ -674,36 +777,36 @@
         <a
           class="nav-link "
           
-          href="/new_page/#papers"
-        >Papers</a
-        >
-      </li>
-      
-      
-      
-      
-      
-      
-      <li class="nav-item">
-        <a
-          class="nav-link "
-          
-          href="/new_page/#talks"
-        >Talks</a
-        >
-      </li>
-      
-      
-      
-      
-      
-      
-      <li class="nav-item">
-        <a
-          class="nav-link "
-          
           href="/new_page/#news"
         >News</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/new_page/publication"
+        >Publications</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/new_page/event"
+        >Talks</a
         >
       </li>
       
@@ -730,22 +833,8 @@
         <a
           class="nav-link "
           
-          href="/new_page/projects/"
-        >Projects</a
-        >
-      </li>
-      
-      
-      
-      
-      
-      
-      <li class="nav-item">
-        <a
-          class="nav-link "
-          
-          href="/new_page/teaching/"
-        >Teaching</a
+          href="/new_page/awards/"
+        >Awards</a
         >
       </li>
       
@@ -838,20 +927,188 @@
 
 
 
-<a href="/new_page/publication/preprint/"  class="mb-5">
+<a href="/new_page/publication/arxiv24-gaussian-dir/"  class="mb-5">
   <div class="md:flex">
     <div class="md:flex-shrink-0 overflow-hidden">
       
         
         
-      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/new_page/publication/preprint/featured_hu559a5add5185b02575aa8333502ab2cc_220813_51a9e1e55db380a702098169ae11a3bc.webp" height="655" width="655" alt="An example preprint / working paper">
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/new_page/publication/arxiv24-gaussian-dir/featured_hud0a95f438efb6037197997b6e620f89a_390284_84c3b790c999ffb14dec4c3bc76d40e3.webp" height="655" width="655" alt="Gaussian Representation for Deformable Image Registration">
       
     </div>
     <div class="p-8">
-      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">An example preprint / working paper</div>
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Gaussian Representation for Deformable Image Registration</div>
       <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.</p>
-      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Apr 7, 2019</p>
+        This paper presented a novel deformable image registration (DIR) technique using parametric 3D Gaussian control points to model continuous spatial deformation fields effectively. By integrating transformation vectors with linear blend skinning (LBS) for voxel motion interpolation, our approach simplifies computational demands while ensuring high accuracy and efficiency. The adaptive density of Gaussian points further allows for precise handling of varying motion complexities.</p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Nov 9, 2024</p>
+    </div>
+  </div>
+</a>
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/new_page/publication/arxiv24-cpt-interp/"  class="mb-5">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0 overflow-hidden">
+      
+        
+        
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/new_page/publication/arxiv24-cpt-interp/featured_hu15a5c9af63489bcaf226aed92a1a51e6_218107_f4e451e28d0be8880d96ab4cf69104af.webp" height="655" width="655" alt="CPT-Interp: Continuous sPatial and Temporal Motion Modeling for 4D Medical Image Interpolation">
+      
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">CPT-Interp: Continuous sPatial and Temporal Motion Modeling for 4D Medical Image Interpolation</div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+        In this work, we introduce a novel Continuous sPatial and Temporal (CPT) modeling approach for 4D medical image interpolation, addressing the limitations of discrete motion modeling in both spatial and temporal domains. By leveraging implicit neural representations and integrating an ODE solver, our method achieves superior accuracy and speed without requiring extensive training datasets or domain-specific fine-tuning. Through comprehensive experiments and ablation studies, we demonstrated the contributions of spatial and temporal continuity, as well as the robustness of our method across different datasets. CPT-Interp not only outperforms state-of-the-art methods but also exhibits remarkable generalization ability, making it a promising solution for clinical applications.</p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Nov 9, 2024</p>
+    </div>
+  </div>
+</a>
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/new_page/publication/arxiv24-tam-bridge-slam/"  class="mb-5">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0 overflow-hidden">
+      
+        
+        
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/new_page/publication/arxiv24-tam-bridge-slam/featured_hu0cd862289b315b60807aff68793c0a8e_733908_bcbeae00b74db71165e08454cbd26f68.webp" height="655" width="655" alt="TAMBRIDGE: Bridging Frame-Centered Tracking and 3D Gaussian Splatting for Enhanced SLAM">
+      
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">TAMBRIDGE: Bridging Frame-Centered Tracking and 3D Gaussian Splatting for Enhanced SLAM</div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+        Our goal was to develop a 3DGS-based SLAM system suitable for intelligent robotic perception tasks. The system is designed to meet the real-time requirements of robotic perception, and is robust against random sensor noise, motion blur and challenges posed by long-session SLAM. To achieve this, we have implemented a plug-and-play Fusion Bridge module that filters redundant views and leverages the anchoring effect of reprojection errors to estimate poses for rendering initially. This approach marks the first integration of a tracking-centered paradigm with an ORB-based visual odometry frontend together with a 3DGS-centered backend. Our system consistently achieves realtime localization and near-real-time rendering at over 5 FPS on the real-world TUM RGB-D dataset. Furthermore, it significantly surpasses SplaTAM in localization accuracy, rendering quality, and robustness in scenarios involving motion blur and long-distance SLAM tasks</p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">May 30, 2024</p>
+    </div>
+  </div>
+</a>
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/new_page/publication/estro24-cpt-dir/"  class="mb-5">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0 overflow-hidden">
+      
+        
+        
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/new_page/publication/estro24-cpt-dir/featured_hu021ed6cb546139d62aea82ab3c1fde08_97314_04edab3e89aa5b4909b1123ce047e340.webp" height="655" width="655" alt="Beyond Voxel-Based Methods: Continuous Motion Modeling for Enhanced Deformable Image Registration">
+      
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Beyond Voxel-Based Methods: Continuous Motion Modeling for Enhanced Deformable Image Registration</div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+        Our novel approach, capitalizing on the power of INR, offers a means to model motion in a continuous manner for intra-fraction motion modelling. By representing the registration process as a continuous flow, we circumvent the limitations inherent to the classic voxel-based representations, particularly the dilemma of discretization. The tangible enhancements are evident: both INR-DIR (E2E and LDD) methods consistently outperformed classic B-splines regarding TRE, MAE, landmark, and Dice coefficients. Remarkably, the registration times were slashed by more than half. One of the standout features of our LDD method is its ability to handle reverse trajectories, a capability unattainable with prior techniques. This promises more robust and versatile image registration applications in radiotherapy.</p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">May 3, 2024</p>
+    </div>
+  </div>
+</a>
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/new_page/publication/phiro24-cpt-dir/"  class="mb-5">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0 overflow-hidden">
+      
+        
+        
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/new_page/publication/phiro24-cpt-dir/featured_huc14d0a5fa40c5cfc1754c530f86165ca_342572_3e84b9476d787197991273461062fbb7.webp" height="655" width="655" alt="Continuous sPatial-Temporal Deformable Image Registration (CPT-DIR) for motion modelling in radiotherapy: beyond classic voxel-based methods">
+      
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Continuous sPatial-Temporal Deformable Image Registration (CPT-DIR) for motion modelling in radiotherapy: beyond classic voxel-based methods</div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+        In summary, the innovative CPT-DIR approach, integrating principles of INR and LDDMM, represents a11 significant departure from traditional voxel-based methods in DIR. By adopting a paradigm of continuous motion modelling, we transcend the limitations inherent in voxel-based representations, offering a more robust, automatic and versatile solution. Leveraging spatial continuity, we effectively handle the intricacies of sliding organ boundaries, while temporal continuity alleviates the complexities associated with significant anatomical changes over time. The tangible benefits are evident in its superior performance compared to classic B-splines methods. CPT-DIR consistently achieves better performance by all kinds of evaluation matrices. Additionally, the efficiency gains are substantial, with registration times slashed by more than half.</p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">May 1, 2024</p>
+    </div>
+  </div>
+</a>
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/new_page/publication/arxiv24-uncert-tto-pose/"  class="mb-5">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0 overflow-hidden">
+      
+        
+        
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/new_page/publication/arxiv24-uncert-tto-pose/featured_hu9c494abd5f76bf38872a6dbd835fa19d_118276_199a7bdd68dd149610a47cb4a6758662.webp" height="655" width="655" alt="Uncertainty-Aware Testing-Time Optimization for 3D Human Pose Estimation">
+      
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Uncertainty-Aware Testing-Time Optimization for 3D Human Pose Estimation</div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+        In this paper, we propose an Uncertainty-Aware testing-time Optimization (UAO) framework for 3D human pose estimation. During the training process, we propose the GUMLP to estimate 3D results and uncertainty values for each joint. For test-time optimization, our UAO framework freezes the pre-trained network parameters and optimizes a latent state initialized by the input 2D pose. To constrain the optimization direction in both 2D and 3D spaces, projection and uncertainty constraints are applied. Extensive experiments show that our approach achieves state-of-the-art performance on two popular datasets</p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Feb 15, 2024</p>
+    </div>
+  </div>
+</a>
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/new_page/publication/medphys24-joint-gen-reg/"  class="mb-5">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0 overflow-hidden">
+      
+        
+        
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/new_page/publication/medphys24-joint-gen-reg/featured_hu36e7445b32da9f0beb25fa32f2b4d30d_137209_38b9ab817556aae6df39a3a95dca2555.webp" height="655" width="655" alt="A Unified Generation-Registration Framework for Improved MR-based CT Synthesis in Proton Therapy">
+      
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">A Unified Generation-Registration Framework for Improved MR-based CT Synthesis in Proton Therapy</div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+        In this study, we developed an approach that substantially improves the anatomical accuracy of synthetic CT (sCT) images for MR-based radiotherapy planning. By integrating image generation with the deformable registration processes, the novel framework effectively addresses the inherent challenges in MR-CT registration and sCT evaluation. The methodological synergy of generation and registration networks, coupled with a strategic approach to proton dose planning, contributes to enhancing treatment planning accuracy. This study represents a meaningful step forward in the application of MR-based proton treatment planning and daily adaptive replanning, offering potential improvements in reducing the imaging-related dose and patient outcomes in the field of radiotherapy.</p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Jan 20, 2024</p>
     </div>
   </div>
 </a>

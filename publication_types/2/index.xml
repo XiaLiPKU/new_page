@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | Xia Li</title>
+    <link>http://localhost:1313/new_page/publication_types/2/</link>
+      <atom:link href="http://localhost:1313/new_page/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 30 Jul 2021 00:00:00 +0800</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/new_page/media/icon_hu68170e94a17a2a43d6dcb45cf0e8e589_3079_512x512_fill_lanczos_center_3.png</url>
+      <title>2</title>
+      <link>http://localhost:1313/new_page/publication_types/2/</link>
+    </image>
+    
+    <item>
+      <title>Towards efficient scene understanding via squeeze reasoning</title>
+      <link>http://localhost:1313/new_page/publication/tip21-sqreason-seg/</link>
+      <pubDate>Fri, 30 Jul 2021 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/new_page/publication/tip21-sqreason-seg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bi-directional Exponential Angular Triplet Loss for RGB-Infrared Person Re-Identification</title>
+      <link>http://localhost:1313/new_page/publication/tip20-atloss-reid/</link>
+      <pubDate>Sat, 12 Dec 2020 12:30:06 +0100</pubDate>
+      <guid>http://localhost:1313/new_page/publication/tip20-atloss-reid/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

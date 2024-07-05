@@ -2,79 +2,139 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://xialipku.github.io/new_page/event/example/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <loc>https://xialipku.github.io/new_page/publication_types/article/</loc>
+    <lastmod>2024-11-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://xialipku.github.io/new_page/event/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <loc>https://xialipku.github.io/new_page/publication/arxiv24-cpt-interp/</loc>
+    <lastmod>2024-11-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://xialipku.github.io/new_page/tags/deformable-image-registration/</loc>
+    <lastmod>2024-11-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://xialipku.github.io/new_page/tags/gaussian-representation/</loc>
+    <lastmod>2024-11-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://xialipku.github.io/new_page/publication/arxiv24-gaussian-dir/</loc>
+    <lastmod>2024-11-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://xialipku.github.io/new_page/publication_types/</loc>
+    <lastmod>2024-11-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://xialipku.github.io/new_page/publication/</loc>
+    <lastmod>2024-11-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://xialipku.github.io/new_page/tags/</loc>
+    <lastmod>2024-11-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://xialipku.github.io/new_page/publication/iccr24-ngp-dir/</loc>
+    <lastmod>2024-07-08T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://xialipku.github.io/new_page/publication_types/paper-conference/</loc>
+    <lastmod>2024-07-08T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://xialipku.github.io/new_page/publication/arxiv24-tam-bridge-slam/</loc>
+    <lastmod>2024-05-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://xialipku.github.io/new_page/projects/</loc>
     <lastmod>2024-05-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://xialipku.github.io/new_page/post/get-started/</loc>
-    <lastmod>2023-10-27T00:00:00+00:00</lastmod>
+    <loc>https://xialipku.github.io/new_page/event/estro24-proffered-paper/</loc>
+    <lastmod>2024-05-04T09:41:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://xialipku.github.io/new_page/tags/academic/</loc>
-    <lastmod>2023-10-27T00:00:00+00:00</lastmod>
+    <loc>https://xialipku.github.io/new_page/event/</loc>
+    <lastmod>2024-05-04T09:41:00+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://xialipku.github.io/new_page/publication/estro24-cpt-dir/</loc>
+    <lastmod>2024-05-03T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://xialipku.github.io/new_page/publication/phiro24-cpt-dir/</loc>
+    <lastmod>2024-05-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://xialipku.github.io/new_page/post/</loc>
-    <lastmod>2023-10-27T00:00:00+00:00</lastmod>
+    <lastmod>2024-03-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://xialipku.github.io/new_page/tags/hugo-blox/</loc>
-    <lastmod>2023-10-27T00:00:00+00:00</lastmod>
+    <loc>https://xialipku.github.io/new_page/post/24-03-15-iccr24-rising-star-competition/</loc>
+    <lastmod>2024-03-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://xialipku.github.io/new_page/tags/markdown/</loc>
-    <lastmod>2023-10-27T00:00:00+00:00</lastmod>
+    <loc>https://xialipku.github.io/new_page/publication_types/article-journal/</loc>
+    <lastmod>2024-03-05T12:30:06+01:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://xialipku.github.io/new_page/tags/</loc>
-    <lastmod>2023-10-27T00:00:00+00:00</lastmod>
+    <loc>https://xialipku.github.io/new_page/tags/image-segmentation/</loc>
+    <lastmod>2024-03-05T12:30:06+01:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://xialipku.github.io/new_page/tags/hugo/</loc>
-    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
+    <loc>https://xialipku.github.io/new_page/publication/tip24-ref-seg/</loc>
+    <lastmod>2024-03-05T12:30:06+01:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://xialipku.github.io/new_page/project/pandas/</loc>
-    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
+    <loc>https://xialipku.github.io/new_page/tags/human-pose/</loc>
+    <lastmod>2024-02-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://xialipku.github.io/new_page/project/</loc>
-    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
+    <loc>https://xialipku.github.io/new_page/tags/uncertainty-estimation/</loc>
+    <lastmod>2024-02-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://xialipku.github.io/new_page/project/pytorch/</loc>
-    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
+    <loc>https://xialipku.github.io/new_page/publication/arxiv24-uncert-tto-pose/</loc>
+    <lastmod>2024-02-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://xialipku.github.io/new_page/project/scikit/</loc>
-    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
+    <loc>https://xialipku.github.io/new_page/publication/tpami24-open-voc-learn/</loc>
+    <lastmod>2024-02-05T12:30:06+01:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://xialipku.github.io/new_page/tags/second-brain/</loc>
-    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
+    <loc>https://xialipku.github.io/new_page/tags/mr-guided-proton-therapy/</loc>
+    <lastmod>2024-02-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://xialipku.github.io/new_page/tags/wowchemy/</loc>
-    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
+    <loc>https://xialipku.github.io/new_page/publication/ro23-uncert-mr2ct/</loc>
+    <lastmod>2024-02-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://xialipku.github.io/new_page/post/second-brain/</loc>
-    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
+    <loc>https://xialipku.github.io/new_page/publication/medphys24-joint-gen-reg/</loc>
+    <lastmod>2024-01-20T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://xialipku.github.io/new_page/post/data-visualization/</loc>
-    <lastmod>2023-10-25T00:00:00+00:00</lastmod>
+    <loc>https://xialipku.github.io/new_page/post/23-12-18-estro24-proffered-paper/</loc>
+    <lastmod>2023-12-18T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://xialipku.github.io/new_page/post/teach-courses/</loc>
+    <loc>https://xialipku.github.io/new_page/tags/in-context-learning/</loc>
+    <lastmod>2023-12-15T21:30:06+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://xialipku.github.io/new_page/publication/cvpr24-icl-pose/</loc>
+    <lastmod>2023-12-15T21:30:06+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://xialipku.github.io/new_page/publication/neurips23-icl-point/</loc>
+    <lastmod>2023-12-10T12:30:06+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://xialipku.github.io/new_page/teaching/aml/</loc>
+    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://xialipku.github.io/new_page/awards/</loc>
     <lastmod>2023-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -82,19 +142,11 @@
     <lastmod>2023-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://xialipku.github.io/new_page/tags/hugo-blox-builder/</loc>
-    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://xialipku.github.io/new_page/tags/javascript/</loc>
     <lastmod>2023-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://xialipku.github.io/new_page/teaching/js/</loc>
-    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://xialipku.github.io/new_page/teaching/python/</loc>
+    <loc>https://xialipku.github.io/new_page/teaching/slt/</loc>
     <lastmod>2023-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -106,52 +158,96 @@
     <lastmod>2023-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://xialipku.github.io/new_page/post/project-management/</loc>
-    <lastmod>2023-10-23T00:00:00+00:00</lastmod>
+    <loc>https://xialipku.github.io/new_page/publication/iccv23-caption-seg/</loc>
+    <lastmod>2023-10-02T21:30:06+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://xialipku.github.io/new_page/publication/iccv23-coevo-mesh/</loc>
+    <lastmod>2023-10-02T21:30:06+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://xialipku.github.io/new_page/event/estro23-mini-oral/</loc>
+    <lastmod>2023-05-13T15:15:00+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://xialipku.github.io/new_page/post/22-12-20-estro23-mini-oral/</loc>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://xialipku.github.io/new_page/</loc>
     <lastmod>2022-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://xialipku.github.io/new_page/publication/preprint/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
+    <loc>https://xialipku.github.io/new_page/publication/tpami22-equil-learn/</loc>
+    <lastmod>2022-06-10T12:30:06+01:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://xialipku.github.io/new_page/publication_types/article/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
+    <loc>https://xialipku.github.io/new_page/publication/pr21-fashion-pose/</loc>
+    <lastmod>2021-10-01T12:30:06+01:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://xialipku.github.io/new_page/tags/large-language-models/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
+    <loc>https://xialipku.github.io/new_page/tags/object-tracking/</loc>
+    <lastmod>2021-09-12T12:30:06+01:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://xialipku.github.io/new_page/publication_types/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
+    <loc>https://xialipku.github.io/new_page/publication/neurips21-proto-track-seg/</loc>
+    <lastmod>2021-09-12T12:30:06+01:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://xialipku.github.io/new_page/publication/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
+    <loc>https://xialipku.github.io/new_page/publication/tip21-sqreason-seg/</loc>
+    <lastmod>2021-07-30T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://xialipku.github.io/new_page/publication/journal-article/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+    <loc>https://xialipku.github.io/new_page/publication/cvpr21-quasi-track/</loc>
+    <lastmod>2021-02-20T21:30:06+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://xialipku.github.io/new_page/publication_types/article-journal/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+    <loc>https://xialipku.github.io/new_page/publication/cvpr21-point-flow-seg/</loc>
+    <lastmod>2021-02-13T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://xialipku.github.io/new_page/tags/source-themes/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+    <loc>https://xialipku.github.io/new_page/publication/tip20-atloss-reid/</loc>
+    <lastmod>2020-12-12T12:30:06+01:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://xialipku.github.io/new_page/publication/conference-paper/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    <loc>https://xialipku.github.io/new_page/publication/iclr20-md-seg/</loc>
+    <lastmod>2020-09-28T21:30:06+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://xialipku.github.io/new_page/publication_types/paper-conference/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    <loc>https://xialipku.github.io/new_page/publication/eccv20-decouple-seg/</loc>
+    <lastmod>2020-07-03T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://xialipku.github.io/new_page/publication/cvpr20-spygr-seg/</loc>
+    <lastmod>2020-02-24T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://xialipku.github.io/new_page/publication/aaai20-sognet-seg/</loc>
+    <lastmod>2020-02-07T09:19:08+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://xialipku.github.io/new_page/publication/aaai20-tcs-cls/</loc>
+    <lastmod>2020-02-07T08:33:58+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://xialipku.github.io/new_page/event/iccv19-oral/</loc>
+    <lastmod>2019-11-01T13:35:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://xialipku.github.io/new_page/publication/iccv19-emanet-seg/</loc>
+    <lastmod>2019-07-22T21:30:06+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://xialipku.github.io/new_page/tags/low-level-vision/</loc>
+    <lastmod>2019-06-19T21:02:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://xialipku.github.io/new_page/publication/miccai19-r2net-destreak/</loc>
+    <lastmod>2019-06-19T21:02:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://xialipku.github.io/new_page/publication/eccv18-rescan-derain/</loc>
+    <lastmod>2018-07-19T19:54:59+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>

@@ -1,6 +1,6 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: July 5, 2024 --><html lang="en-us" dir="ltr"
+<!-- Last Published: July 6, 2024 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="system">
   
 <head>
@@ -34,7 +34,7 @@
   
   
 
-  <meta name="author" content="吳健雄" />
+  <meta name="author" content="Xia Li" />
 
   
   
@@ -51,7 +51,7 @@
   
   
     
-    <link rel="stylesheet" href="/new_page/css/themes/emerald.min.css" />
+    <link rel="stylesheet" href="/new_page/css/themes/blue.min.css" />
   
 
   
@@ -130,6 +130,45 @@
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=LF6EHN32R3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'LF6EHN32R3', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
 
 
 
@@ -156,7 +195,7 @@
 
   
   
-    <link rel="alternate" href="/new_page/event/index.xml" type="application/rss+xml" title="Hugo Academic CV Theme" />
+    <link rel="alternate" href="/new_page/event/index.xml" type="application/rss+xml" title="Xia Li" />
   
 
   
@@ -188,14 +227,14 @@
     <meta property="twitter:site" content="@GetResearchDev" />
     <meta property="twitter:creator" content="@GetResearchDev" />
   
-  <meta property="og:site_name" content="Hugo Academic CV Theme" />
+  <meta property="og:site_name" content="Xia Li" />
   <meta property="og:url" content="https://xialipku.github.io/new_page/event/" />
-  <meta property="og:title" content="Recent &amp; Upcoming Talks | Hugo Academic CV Theme" />
+  <meta property="og:title" content="Talks | Xia Li" />
   <meta property="og:description" content="The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website." /><meta property="og:image" content="https://xialipku.github.io/new_page/media/icon_hu68170e94a17a2a43d6dcb45cf0e8e589_3079_512x512_fill_lanczos_center_3.png" />
     <meta property="twitter:image" content="https://xialipku.github.io/new_page/media/icon_hu68170e94a17a2a43d6dcb45cf0e8e589_3079_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="og:updated_time" content="2030-06-01T13:00:00&#43;00:00" />
+      <meta property="og:updated_time" content="2024-05-04T09:41:00&#43;02:00" />
     
   
 
@@ -204,7 +243,7 @@
 
 
 
-  <title>Recent &amp; Upcoming Talks | Hugo Academic CV Theme</title>
+  <title>Talks | Xia Li</title>
 
   
   
@@ -236,25 +275,13 @@
   
   
   
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
+  
+  
+  
+  
+  
+  
+  
   
   
   
@@ -292,60 +319,45 @@
         
       
     
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
@@ -372,6 +384,28 @@
       
     
   
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
   
     
       
@@ -392,41 +426,13 @@
         
       
     
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
+  
+  
+  
+  
+  
+  
+  
     
       
       
@@ -484,7 +490,104 @@
     
       
       
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
     
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
@@ -622,8 +725,8 @@
   <nav class="navbar px-3 flex justify-left">
     <div class="order-0 h-100">
       
-      <a class="navbar-brand" href="/new_page/" title="Hugo Academic CV Theme">
-        Your Name
+      <a class="navbar-brand" href="/new_page/" title="Xia Li">
+        Xia Li
       </a>
     </div>
     
@@ -674,36 +777,36 @@
         <a
           class="nav-link "
           
-          href="/new_page/#papers"
-        >Papers</a
-        >
-      </li>
-      
-      
-      
-      
-      
-      
-      <li class="nav-item">
-        <a
-          class="nav-link "
-          
-          href="/new_page/#talks"
-        >Talks</a
-        >
-      </li>
-      
-      
-      
-      
-      
-      
-      <li class="nav-item">
-        <a
-          class="nav-link "
-          
           href="/new_page/#news"
         >News</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/new_page/publication"
+        >Publications</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/new_page/event"
+        >Talks</a
         >
       </li>
       
@@ -730,22 +833,8 @@
         <a
           class="nav-link "
           
-          href="/new_page/projects/"
-        >Projects</a
-        >
-      </li>
-      
-      
-      
-      
-      
-      
-      <li class="nav-item">
-        <a
-          class="nav-link "
-          
-          href="/new_page/teaching/"
-        >Teaching</a
+          href="/new_page/awards/"
+        >Awards</a
         >
       </li>
       
@@ -814,7 +903,7 @@
 
 <div class="max-w-prose mx-auto flex justify-center">
   <article class="prose prose-slate lg:prose-xl dark:prose-invert">
-    <h1 class="lg:text-6xl">Recent &amp; Upcoming Talks</h1>
+    <h1 class="lg:text-6xl">Talks</h1>
     
   </article>
 </div>
@@ -824,7 +913,11 @@
 
 <div class="flex flex-col items-center">
 
-  <div class="container max-w-[65ch] mx-auto bg-white dark:bg-zinc-900 rounded-xl border-gray-100 dark:border-gray-700 border shadow-md overflow-hidden my-5">
+  
+
+
+<div class="container px-8 mx-auto xl:px-5 py-5 lg:py-8 max-w-screen-lg ">
+  <div class="grid gap-10 md:grid-cols-2 lg:gap-10">
 
 
   
@@ -838,27 +931,186 @@
 
 
 
-<a href="/new_page/event/example/"  class="mb-5">
-  <div class="md:flex">
-    <div class="md:flex-shrink-0 overflow-hidden">
-      
+
+<div class="group cursor-pointer">
+
+  
+  
+  
+    
+  
+  
+  <div class="overflow-hidden rounded-md bg-gray-100 transition-all hover:scale-105 dark:bg-gray-800">
+
+    <a
+      class="relative block aspect-video"
+      href="/new_page/event/estro24-proffered-paper/" >
+
+      <img alt="ESTRO 2024 Proffered Paper"
+           class="object-fill transition-all"
+           data-nimg="fill"
+           decoding="async"
+           fetchpriority="high" height="540" loading="lazy" src="/new_page/event/estro24-proffered-paper/featured_hueaa20a60304dfba750d2a2c292d27e84_338124_f002433eebadb29006a21b71497fb229.webp"
+           style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
+           width="960"></a>
+  </div>
+  
+  <div class="">
+    <div class="">
+      <div class="flex gap-3">
         
-        
-      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="/new_page/event/example/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_620088_f6d05bc359896f5e8a3ee80e012db624.webp" height="655" width="655" alt="Example Talk">
+      </div>
       
-    </div>
-    <div class="p-8">
-      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Example Talk</div>
-      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
-        An example talk using Hugo Blox Builder&#39;s Markdown slides feature.</p>
-      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Jun 1, 2030</p>
+      <h2 class="text-lg font-semibold leading-snug tracking-tight mt-2 dark:text-white"><a
+        href="/new_page/event/estro24-proffered-paper/" ><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">ESTRO 2024 Proffered Paper
+          </span></a>
+      </h2>
+      
+      <div class="grow"><p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400"><a
+        href="/new_page/event/estro24-proffered-paper/" >
+        Proffered paper presentation for continuous deformable image registration</a></p>
+      </div>
+      <div class="flex-none">
+        <div class="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400 cursor-default">
+          
+          
+          <time class="truncate text-sm" datetime="2024-05-04">May 4, 2024</time>
+        </div>
+      </div>
+
     </div>
   </div>
-</a>
+</div>
+
+  
+  
+
+
+
+
+
+
+
+
+
+<div class="group cursor-pointer">
+
+  
+  
+  
+    
+  
+  
+  <div class="overflow-hidden rounded-md bg-gray-100 transition-all hover:scale-105 dark:bg-gray-800">
+
+    <a
+      class="relative block aspect-video"
+      href="/new_page/event/estro23-mini-oral/" >
+
+      <img alt="ESTRO 2023 Mini-Oral"
+           class="object-fill transition-all"
+           data-nimg="fill"
+           decoding="async"
+           fetchpriority="high" height="540" loading="lazy" src="/new_page/event/estro23-mini-oral/featured_hucbeeb0ee2df3523c7003bb7a14e993a7_177126_9945beda1820afd50823ba795f9eae46.webp"
+           style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
+           width="960"></a>
+  </div>
+  
+  <div class="">
+    <div class="">
+      <div class="flex gap-3">
+        
+      </div>
+      
+      <h2 class="text-lg font-semibold leading-snug tracking-tight mt-2 dark:text-white"><a
+        href="/new_page/event/estro23-mini-oral/" ><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">ESTRO 2023 Mini-Oral
+          </span></a>
+      </h2>
+      
+      <div class="grow"><p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400"><a
+        href="/new_page/event/estro23-mini-oral/" >
+        Mini-oral presentation for uncertainty-conditioned MR-guided proton therapy</a></p>
+      </div>
+      <div class="flex-none">
+        <div class="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400 cursor-default">
+          
+          
+          <time class="truncate text-sm" datetime="2023-05-13">May 13, 2023</time>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  
+  
+
+
+
+
+
+
+
+
+
+<div class="group cursor-pointer">
+
+  
+  
+  
+    
+  
+  
+  <div class="overflow-hidden rounded-md bg-gray-100 transition-all hover:scale-105 dark:bg-gray-800">
+
+    <a
+      class="relative block aspect-video"
+      href="/new_page/event/iccv19-oral/" >
+
+      <img alt="ICCV 2019 Oral"
+           class="object-fill transition-all"
+           data-nimg="fill"
+           decoding="async"
+           fetchpriority="high" height="540" loading="lazy" src="/new_page/event/iccv19-oral/featured_hu545592b4f28d304f81b32973adb708ca_63558_c3a6fa7772db40f43a67f5743d56bdf1.webp"
+           style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
+           width="960"></a>
+  </div>
+  
+  <div class="">
+    <div class="">
+      <div class="flex gap-3">
+        
+      </div>
+      
+      <h2 class="text-lg font-semibold leading-snug tracking-tight mt-2 dark:text-white"><a
+        href="/new_page/event/iccv19-oral/" ><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">ICCV 2019 Oral
+          </span></a>
+      </h2>
+      
+      <div class="grow"><p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400"><a
+        href="/new_page/event/iccv19-oral/" >
+        Oral presentation for EMANet</a></p>
+      </div>
+      <div class="flex-none">
+        <div class="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400 cursor-default">
+          
+          
+          <time class="truncate text-sm" datetime="2019-11-01">Nov 1, 2019</time>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
 
   
 
-  </div>
+    </div>
+</div>
 
 
   
